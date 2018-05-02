@@ -20,7 +20,7 @@ runtime: java
 env: flex
 
 runtime_config:  # Optional
-  jdk: openjdk8
+  jdk: openjdk9
 
 handlers:
 - url: /.*

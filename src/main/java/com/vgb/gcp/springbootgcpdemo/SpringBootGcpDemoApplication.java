@@ -15,6 +15,6 @@ public class SpringBootGcpDemoApplication {
 
 	@RequestMapping("/")
 	public String hi() {
-		return "yo google, i',m running java  " + System.getProperty("java.version");
+		return "Hello Folks,.. i'm running on GCP with Java  " + System.getProperty("java.version");
 	}
 }
